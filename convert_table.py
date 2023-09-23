@@ -5,8 +5,7 @@ def main(args):
     template_csv = args.template
     target_csv = args.target
     api_key = args.key
-
-    # Ваш код обработки CSV файлов и использования API ключа здесь
+    
     print(f"Source CSV: {source_csv}")
     print(f"Template CSV: {template_csv}")
     print(f"Target CSV: {target_csv}")
